@@ -1,0 +1,37 @@
+
+.fixed-top {
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.bg_mon{
+    background-color: #15b9a6ce;
+}
+
+.bg_li{
+    background-color:#FEAF0D ;
+}
+.bg_ina{
+    background-color: #c300ffed;
+}
+.bg_su{
+    background-color: #9BE53D;
+}
+.bg_fo{
+    background-color: #00BDFB;
+}
+
+.card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card-body {
+    padding: 1rem;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
